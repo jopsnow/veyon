@@ -1,0 +1,2733 @@
+The system is: Linux - 4.18.0-1014-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jopper/veyon/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jopper/veyon/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af5be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af5be.dir/build.make CMakeFiles/cmTC_af5be.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af5be.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af5be.dir/testCCompiler.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_af5be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af5be.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af5be.dir/testCCompiler.c.o  -o cmTC_af5be 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7292/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7292.dir/build.make CMakeFiles/cmTC_d7292.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d7292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7292.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o  -o cmTC_d7292 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7292' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb0Vq6v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7292 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7292' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d7292/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d7292.dir/build.make CMakeFiles/cmTC_d7292.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d7292]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7292.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o  -o cmTC_d7292 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d7292' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb0Vq6v.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d7292 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccb0Vq6v.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7292] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_d7292.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9b61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9b61.dir/build.make CMakeFiles/cmTC_c9b61.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9b61.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c9b61.dir/feature_tests.c.o   -c /home/jopper/veyon/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c9b61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9b61.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c9b61.dir/feature_tests.c.o  -o cmTC_c9b61 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78c7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78c7c.dir/build.make CMakeFiles/cmTC_78c7c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78c7c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_78c7c.dir/feature_tests.c.o   -c /home/jopper/veyon/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_78c7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78c7c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_78c7c.dir/feature_tests.c.o  -o cmTC_78c7c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2dbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2dbf.dir/build.make CMakeFiles/cmTC_e2dbf.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2dbf.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e2dbf.dir/feature_tests.c.o   -c /home/jopper/veyon/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e2dbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2dbf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e2dbf.dir/feature_tests.c.o  -o cmTC_e2dbf 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1af06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1af06.dir/build.make CMakeFiles/cmTC_1af06.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1af06.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1af06.dir/testCXXCompiler.cxx.o -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1af06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1af06.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1af06.dir/testCXXCompiler.cxx.o  -o cmTC_1af06 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c06a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c06a.dir/build.make CMakeFiles/cmTC_0c06a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0c06a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c06a.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c06a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0c06a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cciEEkf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c06a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0c06a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0c06a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0c06a.dir/build.make CMakeFiles/cmTC_0c06a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0c06a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c06a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0c06a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0c06a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cciEEkf0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0c06a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciEEkf0.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0c06a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_0c06a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77b80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77b80.dir/build.make CMakeFiles/cmTC_77b80.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77b80.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_77b80.dir/feature_tests.cxx.o -c /home/jopper/veyon/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_77b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b80.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_77b80.dir/feature_tests.cxx.o  -o cmTC_77b80 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0dd94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dd94.dir/build.make CMakeFiles/cmTC_0dd94.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0dd94.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0dd94.dir/feature_tests.cxx.o -c /home/jopper/veyon/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0dd94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dd94.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0dd94.dir/feature_tests.cxx.o  -o cmTC_0dd94 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f96a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f96a.dir/build.make CMakeFiles/cmTC_0f96a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f96a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_0f96a.dir/feature_tests.cxx.o -c /home/jopper/veyon/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0f96a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f96a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0f96a.dir/feature_tests.cxx.o  -o cmTC_0f96a 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a577/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a577.dir/build.make CMakeFiles/cmTC_6a577.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a577.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6a577.dir/feature_tests.cxx.o -c /home/jopper/veyon/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6a577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a577.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6a577.dir/feature_tests.cxx.o  -o cmTC_6a577 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test PAM_MESSAGE_CONST succeeded with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f396/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f396.dir/build.make CMakeFiles/cmTC_4f396.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f396.dir/src.cxx.o
+/usr/bin/c++    -DPAM_MESSAGE_CONST   -o CMakeFiles/cmTC_4f396.dir/src.cxx.o -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4f396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f396.dir/link.txt --verbose=1
+/usr/bin/c++   -DPAM_MESSAGE_CONST    -rdynamic CMakeFiles/cmTC_4f396.dir/src.cxx.o  -o cmTC_4f396 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if +0
+# include <pam/pam_appl.h>
+#else
+# include <security/pam_appl.h>
+#endif
+
+static int PAM_conv(
+	int num_msg,
+	const struct pam_message **msg, /* this is the culprit */
+	struct pam_response **resp,
+	void *ctx)
+{
+	return 0;
+}
+
+int main(void)
+{
+	struct pam_conv PAM_conversation = {
+		&PAM_conv, /* this bombs out if the above does not match */
+		0
+	};
+
+	return 0;
+}
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c94b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c94b1.dir/build.make CMakeFiles/cmTC_c94b1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c94b1.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c94b1.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c94b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c94b1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c94b1.dir/CheckIncludeFiles.c.o  -o cmTC_c94b1 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61a32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61a32.dir/build.make CMakeFiles/cmTC_61a32.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61a32.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61a32.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_61a32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a32.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_61a32.dir/CheckIncludeFiles.c.o  -o cmTC_61a32 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4403e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4403e.dir/build.make CMakeFiles/cmTC_4403e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4403e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4403e.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4403e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4403e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4403e.dir/CheckIncludeFiles.c.o  -o cmTC_4403e 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d5e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d5e5.dir/build.make CMakeFiles/cmTC_6d5e5.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d5e5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6d5e5.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6d5e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5e5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6d5e5.dir/CheckIncludeFiles.c.o  -o cmTC_6d5e5 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cfff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cfff.dir/build.make CMakeFiles/cmTC_7cfff.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cfff.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7cfff.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7cfff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cfff.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7cfff.dir/CheckIncludeFiles.c.o  -o cmTC_7cfff 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f803f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f803f.dir/build.make CMakeFiles/cmTC_f803f.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f803f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f803f.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f803f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f803f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f803f.dir/CheckIncludeFiles.c.o  -o cmTC_f803f 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3c76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3c76.dir/build.make CMakeFiles/cmTC_e3c76.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3c76.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e3c76.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e3c76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c76.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e3c76.dir/CheckIncludeFiles.c.o  -o cmTC_e3c76 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b2aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b2aa.dir/build.make CMakeFiles/cmTC_9b2aa.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b2aa.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9b2aa.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9b2aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b2aa.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9b2aa.dir/CheckIncludeFiles.c.o  -o cmTC_9b2aa 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/timeb.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b52a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b52a6.dir/build.make CMakeFiles/cmTC_b52a6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b52a6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b52a6.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b52a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b52a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b52a6.dir/CheckIncludeFiles.c.o  -o cmTC_b52a6 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ff6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ff6d.dir/build.make CMakeFiles/cmTC_6ff6d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ff6d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6ff6d.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6ff6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ff6d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6ff6d.dir/CheckIncludeFiles.c.o  -o cmTC_6ff6d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c762/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c762.dir/build.make CMakeFiles/cmTC_6c762.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c762.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6c762.dir/CheckIncludeFile.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6c762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c762.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6c762.dir/CheckIncludeFile.c.o  -o cmTC_6c762 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85aa0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85aa0.dir/build.make CMakeFiles/cmTC_85aa0.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85aa0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_85aa0.dir/CheckIncludeFile.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_85aa0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85aa0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_85aa0.dir/CheckIncludeFile.c.o  -o cmTC_85aa0 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0ada/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0ada.dir/build.make CMakeFiles/cmTC_f0ada.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0ada.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f0ada.dir/CheckIncludeFile.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0ada
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ada.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f0ada.dir/CheckIncludeFile.c.o  -o cmTC_f0ada 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32dce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32dce.dir/build.make CMakeFiles/cmTC_32dce.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32dce.dir/LIBVNCSERVER_PID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_32dce.dir/LIBVNCSERVER_PID_T.c.o   -c /home/jopper/veyon/build/CMakeFiles/CheckTypeSize/LIBVNCSERVER_PID_T.c
+Linking C executable cmTC_32dce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32dce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_32dce.dir/LIBVNCSERVER_PID_T.c.o  -o cmTC_32dce 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed79b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed79b.dir/build.make CMakeFiles/cmTC_ed79b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed79b.dir/LIBVNCSERVER_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed79b.dir/LIBVNCSERVER_SIZE_T.c.o   -c /home/jopper/veyon/build/CMakeFiles/CheckTypeSize/LIBVNCSERVER_SIZE_T.c
+Linking C executable cmTC_ed79b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed79b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ed79b.dir/LIBVNCSERVER_SIZE_T.c.o  -o cmTC_ed79b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d771f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d771f.dir/build.make CMakeFiles/cmTC_d771f.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d771f.dir/LIBVNCSERVER_SOCKLEN_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d771f.dir/LIBVNCSERVER_SOCKLEN_T.c.o   -c /home/jopper/veyon/build/CMakeFiles/CheckTypeSize/LIBVNCSERVER_SOCKLEN_T.c
+Linking C executable cmTC_d771f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d771f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d771f.dir/LIBVNCSERVER_SOCKLEN_T.c.o  -o cmTC_d771f 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_start_tls_s exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5ef8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5ef8.dir/build.make CMakeFiles/cmTC_d5ef8.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5ef8.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_start_tls_s   -o CMakeFiles/cmTC_d5ef8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5ef8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5ef8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_start_tls_s    -rdynamic CMakeFiles/cmTC_d5ef8.dir/CheckFunctionExists.c.o  -o cmTC_d5ef8 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_initialize exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1221/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1221.dir/build.make CMakeFiles/cmTC_a1221.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1221.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_initialize   -o CMakeFiles/cmTC_a1221.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1221.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_initialize    -rdynamic CMakeFiles/cmTC_a1221.dir/CheckFunctionExists.c.o  -o cmTC_a1221 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ber_memfree exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a964/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a964.dir/build.make CMakeFiles/cmTC_1a964.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a964.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ber_memfree   -o CMakeFiles/cmTC_1a964.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1a964
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a964.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ber_memfree    -rdynamic CMakeFiles/cmTC_1a964.dir/CheckFunctionExists.c.o  -o cmTC_1a964 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_unbind_ext exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccf6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccf6b.dir/build.make CMakeFiles/cmTC_ccf6b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccf6b.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_unbind_ext   -o CMakeFiles/cmTC_ccf6b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ccf6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf6b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_unbind_ext    -rdynamic CMakeFiles/cmTC_ccf6b.dir/CheckFunctionExists.c.o  -o cmTC_ccf6b /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_extended_operation exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_00bb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00bb0.dir/build.make CMakeFiles/cmTC_00bb0.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00bb0.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation   -o CMakeFiles/cmTC_00bb0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00bb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bb0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation    -rdynamic CMakeFiles/cmTC_00bb0.dir/CheckFunctionExists.c.o  -o cmTC_00bb0 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_extended_operation_s exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6652a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6652a.dir/build.make CMakeFiles/cmTC_6652a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6652a.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation_s   -o CMakeFiles/cmTC_6652a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6652a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6652a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation_s    -rdynamic CMakeFiles/cmTC_6652a.dir/CheckFunctionExists.c.o  -o cmTC_6652a /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the ldap_extended_operation exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36b68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36b68.dir/build.make CMakeFiles/cmTC_36b68.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36b68.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_36b68.dir/CheckSymbolExists.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_36b68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36b68.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_36b68.dir/CheckSymbolExists.c.o  -o cmTC_36b68 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+File /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ldap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ldap_extended_operation
+  return ((int*)(&ldap_extended_operation))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ldap_extended_operation_s exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71c95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71c95.dir/build.make CMakeFiles/cmTC_71c95.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71c95.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_71c95.dir/CheckSymbolExists.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_71c95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c95.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_71c95.dir/CheckSymbolExists.c.o  -o cmTC_71c95 /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/x86_64-linux-gnu/liblber.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+File /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ldap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ldap_extended_operation_s
+  return ((int*)(&ldap_extended_operation_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files ldap.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_276d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_276d9.dir/build.make CMakeFiles/cmTC_276d9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_276d9.dir/CheckIncludeFiles.c.o
+/usr/bin/cc  -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/lber.h -I/home/jopper/veyon/build/CMakeFiles/CMakeTmp/ldap.h  -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_276d9.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_276d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276d9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_276d9.dir/CheckIncludeFiles.c.o  -o cmTC_276d9 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4668b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4668b.dir/build.make CMakeFiles/cmTC_4668b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4668b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_4668b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4668b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4668b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_4668b.dir/CheckFunctionExists.c.o  -o cmTC_4668b /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ca64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ca64.dir/build.make CMakeFiles/cmTC_9ca64.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ca64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_9ca64.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ca64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca64.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_9ca64.dir/CheckFunctionExists.c.o  -o cmTC_9ca64 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76acb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76acb.dir/build.make CMakeFiles/cmTC_76acb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76acb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_76acb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76acb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76acb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_76acb.dir/CheckFunctionExists.c.o  -o cmTC_76acb 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3bb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3bb7.dir/build.make CMakeFiles/cmTC_a3bb7.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3bb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_a3bb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3bb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3bb7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_a3bb7.dir/CheckFunctionExists.c.o  -o cmTC_a3bb7 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48c39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48c39.dir/build.make CMakeFiles/cmTC_48c39.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48c39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_48c39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_48c39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c39.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_48c39.dir/CheckFunctionExists.c.o  -o cmTC_48c39 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5e8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5e8a.dir/build.make CMakeFiles/cmTC_f5e8a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5e8a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_f5e8a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5e8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5e8a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_f5e8a.dir/CheckFunctionExists.c.o  -o cmTC_f5e8a -lICE 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_419c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_419c9.dir/build.make CMakeFiles/cmTC_419c9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_419c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_419c9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o  -o cmTC_419c9 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_632e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_632e9.dir/build.make CMakeFiles/cmTC_632e9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_632e9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_632e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_632e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_632e9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_632e9.dir/CheckFunctionExists.c.o  -o cmTC_632e9 -lpthread 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59f93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59f93.dir/build.make CMakeFiles/cmTC_59f93.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59f93.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_59f93.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_59f93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59f93.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=fork    -rdynamic CMakeFiles/cmTC_59f93.dir/CheckFunctionExists.c.o  -o cmTC_59f93 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f15a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f15a.dir/build.make CMakeFiles/cmTC_1f15a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f15a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ftime   -o CMakeFiles/cmTC_1f15a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f15a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f15a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ftime    -rdynamic CMakeFiles/cmTC_1f15a.dir/CheckFunctionExists.c.o  -o cmTC_1f15a 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_051e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_051e5.dir/build.make CMakeFiles/cmTC_051e5.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_051e5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_051e5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_051e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_051e5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_051e5.dir/CheckFunctionExists.c.o  -o cmTC_051e5 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_430e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_430e1.dir/build.make CMakeFiles/cmTC_430e1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_430e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_430e1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_430e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430e1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_430e1.dir/CheckFunctionExists.c.o  -o cmTC_430e1 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb5d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb5d4.dir/build.make CMakeFiles/cmTC_fb5d4.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb5d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_fb5d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb5d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb5d4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_fb5d4.dir/CheckFunctionExists.c.o  -o cmTC_fb5d4 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntoa exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae3f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae3f4.dir/build.make CMakeFiles/cmTC_ae3f4.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae3f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=inet_ntoa   -o CMakeFiles/cmTC_ae3f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae3f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3f4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=inet_ntoa    -rdynamic CMakeFiles/cmTC_ae3f4.dir/CheckFunctionExists.c.o  -o cmTC_ae3f4 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f33c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f33c.dir/build.make CMakeFiles/cmTC_9f33c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f33c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_9f33c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9f33c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f33c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_9f33c.dir/CheckFunctionExists.c.o  -o cmTC_9f33c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0b43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0b43.dir/build.make CMakeFiles/cmTC_f0b43.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0b43.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_f0b43.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_f0b43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0b43.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_f0b43.dir/CheckFunctionExists.c.o  -o cmTC_f0b43 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkfifo exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8edd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8edd.dir/build.make CMakeFiles/cmTC_c8edd.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8edd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mkfifo   -o CMakeFiles/cmTC_c8edd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8edd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8edd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mkfifo    -rdynamic CMakeFiles/cmTC_c8edd.dir/CheckFunctionExists.c.o  -o cmTC_c8edd 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11776/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11776.dir/build.make CMakeFiles/cmTC_11776.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11776.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_11776.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11776.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mmap    -rdynamic CMakeFiles/cmTC_11776.dir/CheckFunctionExists.c.o  -o cmTC_11776 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6068/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6068.dir/build.make CMakeFiles/cmTC_e6068.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6068.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_e6068.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6068
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6068.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=select    -rdynamic CMakeFiles/cmTC_e6068.dir/CheckFunctionExists.c.o  -o cmTC_e6068 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d5d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d5d6.dir/build.make CMakeFiles/cmTC_6d5d6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d5d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_6d5d6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d5d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5d6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_6d5d6.dir/CheckFunctionExists.c.o  -o cmTC_6d5d6 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82920/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82920.dir/build.make CMakeFiles/cmTC_82920.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82920.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_82920.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_82920
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82920.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strchr    -rdynamic CMakeFiles/cmTC_82920.dir/CheckFunctionExists.c.o  -o cmTC_82920 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88e03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88e03.dir/build.make CMakeFiles/cmTC_88e03.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88e03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_88e03.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_88e03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88e03.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_88e03.dir/CheckFunctionExists.c.o  -o cmTC_88e03 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b3d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b3d7.dir/build.make CMakeFiles/cmTC_1b3d7.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b3d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTC_1b3d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b3d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b3d7.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strerror    -rdynamic CMakeFiles/cmTC_1b3d7.dir/CheckFunctionExists.c.o  -o cmTC_1b3d7 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c85b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c85b1.dir/build.make CMakeFiles/cmTC_c85b1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c85b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_c85b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c85b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c85b1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strstr    -rdynamic CMakeFiles/cmTC_c85b1.dir/CheckFunctionExists.c.o  -o cmTC_c85b1 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44934/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44934.dir/build.make CMakeFiles/cmTC_44934.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44934.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vfork   -o CMakeFiles/cmTC_44934.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_44934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44934.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vfork    -rdynamic CMakeFiles/cmTC_44934.dir/CheckFunctionExists.c.o  -o cmTC_44934 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12811/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12811.dir/build.make CMakeFiles/cmTC_12811.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12811.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vprintf   -o CMakeFiles/cmTC_12811.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_12811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12811.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vprintf    -rdynamic CMakeFiles/cmTC_12811.dir/CheckFunctionExists.c.o  -o cmTC_12811 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7c94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7c94.dir/build.make CMakeFiles/cmTC_c7c94.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c94.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_c7c94.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c7c94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c94.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_c7c94.dir/CheckIncludeFiles.c.o  -o cmTC_c7c94 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_847c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_847c5.dir/build.make CMakeFiles/cmTC_847c5.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_847c5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_847c5.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_847c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_847c5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_847c5.dir/CheckIncludeFiles.c.o  -o cmTC_847c5 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55ccb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55ccb.dir/build.make CMakeFiles/cmTC_55ccb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55ccb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_55ccb.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_55ccb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ccb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_55ccb.dir/CheckIncludeFiles.c.o  -o cmTC_55ccb 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dup2 exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_733d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_733d9.dir/build.make CMakeFiles/cmTC_733d9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_733d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=dup2   -o CMakeFiles/cmTC_733d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_733d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_733d9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=dup2    -rdynamic CMakeFiles/cmTC_733d9.dir/CheckFunctionExists.c.o  -o cmTC_733d9 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f57b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f57b.dir/build.make CMakeFiles/cmTC_4f57b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f57b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ftime   -o CMakeFiles/cmTC_4f57b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f57b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f57b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ftime    -rdynamic CMakeFiles/cmTC_4f57b.dir/CheckFunctionExists.c.o  -o cmTC_4f57b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function geteuid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34b2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34b2e.dir/build.make CMakeFiles/cmTC_34b2e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34b2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=geteuid   -o CMakeFiles/cmTC_34b2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34b2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34b2e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=geteuid    -rdynamic CMakeFiles/cmTC_34b2e.dir/CheckFunctionExists.c.o  -o cmTC_34b2e 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8521.dir/build.make CMakeFiles/cmTC_d8521.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8521.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_d8521.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8521.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_d8521.dir/CheckFunctionExists.c.o  -o cmTC_d8521 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67ca4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67ca4.dir/build.make CMakeFiles/cmTC_67ca4.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ca4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_67ca4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67ca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ca4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_67ca4.dir/CheckFunctionExists.c.o  -o cmTC_67ca4 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpwnam exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7b64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7b64.dir/build.make CMakeFiles/cmTC_a7b64.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7b64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getpwnam   -o CMakeFiles/cmTC_a7b64.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7b64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7b64.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getpwnam    -rdynamic CMakeFiles/cmTC_a7b64.dir/CheckFunctionExists.c.o  -o cmTC_a7b64 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpwuid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70b54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70b54.dir/build.make CMakeFiles/cmTC_70b54.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70b54.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getpwuid   -o CMakeFiles/cmTC_70b54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70b54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b54.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getpwuid    -rdynamic CMakeFiles/cmTC_70b54.dir/CheckFunctionExists.c.o  -o cmTC_70b54 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getspnam exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28fbb.dir/build.make CMakeFiles/cmTC_28fbb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28fbb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getspnam   -o CMakeFiles/cmTC_28fbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28fbb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getspnam    -rdynamic CMakeFiles/cmTC_28fbb.dir/CheckFunctionExists.c.o  -o cmTC_28fbb 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f14f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f14f6.dir/build.make CMakeFiles/cmTC_f14f6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f14f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_f14f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f14f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f14f6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_f14f6.dir/CheckFunctionExists.c.o  -o cmTC_f14f6 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getuid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9c74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9c74.dir/build.make CMakeFiles/cmTC_d9c74.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9c74.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getuid   -o CMakeFiles/cmTC_d9c74.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d9c74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9c74.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=getuid    -rdynamic CMakeFiles/cmTC_d9c74.dir/CheckFunctionExists.c.o  -o cmTC_d9c74 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function grantpt exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09f39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09f39.dir/build.make CMakeFiles/cmTC_09f39.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09f39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=grantpt   -o CMakeFiles/cmTC_09f39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09f39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09f39.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=grantpt    -rdynamic CMakeFiles/cmTC_09f39.dir/CheckFunctionExists.c.o  -o cmTC_09f39 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntoa exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd749/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd749.dir/build.make CMakeFiles/cmTC_fd749.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd749.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=inet_ntoa   -o CMakeFiles/cmTC_fd749.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fd749
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd749.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=inet_ntoa    -rdynamic CMakeFiles/cmTC_fd749.dir/CheckFunctionExists.c.o  -o cmTC_fd749 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function initgroups exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36330/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36330.dir/build.make CMakeFiles/cmTC_36330.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36330.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=initgroups   -o CMakeFiles/cmTC_36330.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36330.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=initgroups    -rdynamic CMakeFiles/cmTC_36330.dir/CheckFunctionExists.c.o  -o cmTC_36330 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d332/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d332.dir/build.make CMakeFiles/cmTC_5d332.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d332.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_5d332.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5d332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d332.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memcmp    -rdynamic CMakeFiles/cmTC_5d332.dir/CheckFunctionExists.c.o  -o cmTC_5d332 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b1f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b1f2.dir/build.make CMakeFiles/cmTC_9b1f2.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b1f2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_9b1f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9b1f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b1f2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memcpy    -rdynamic CMakeFiles/cmTC_9b1f2.dir/CheckFunctionExists.c.o  -o cmTC_9b1f2 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6abc9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6abc9.dir/build.make CMakeFiles/cmTC_6abc9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6abc9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_6abc9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_6abc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6abc9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memmove    -rdynamic CMakeFiles/cmTC_6abc9.dir/CheckFunctionExists.c.o  -o cmTC_6abc9 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2449d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2449d.dir/build.make CMakeFiles/cmTC_2449d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2449d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_2449d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2449d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2449d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=memset    -rdynamic CMakeFiles/cmTC_2449d.dir/CheckFunctionExists.c.o  -o cmTC_2449d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkfifo exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9555e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9555e.dir/build.make CMakeFiles/cmTC_9555e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9555e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mkfifo   -o CMakeFiles/cmTC_9555e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9555e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9555e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mkfifo    -rdynamic CMakeFiles/cmTC_9555e.dir/CheckFunctionExists.c.o  -o cmTC_9555e 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0de57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0de57.dir/build.make CMakeFiles/cmTC_0de57.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0de57.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_0de57.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0de57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0de57.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=mmap    -rdynamic CMakeFiles/cmTC_0de57.dir/CheckFunctionExists.c.o  -o cmTC_0de57 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8652e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8652e.dir/build.make CMakeFiles/cmTC_8652e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8652e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_8652e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_8652e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8652e.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=fork    -rdynamic CMakeFiles/cmTC_8652e.dir/CheckFunctionExists.c.o  -o cmTC_8652e 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23f86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23f86.dir/build.make CMakeFiles/cmTC_23f86.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23f86.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_23f86.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23f86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f86.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=putenv    -rdynamic CMakeFiles/cmTC_23f86.dir/CheckFunctionExists.c.o  -o cmTC_23f86 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb99d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb99d.dir/build.make CMakeFiles/cmTC_fb99d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb99d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_fb99d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb99d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb99d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=select    -rdynamic CMakeFiles/cmTC_fb99d.dir/CheckFunctionExists.c.o  -o cmTC_fb99d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function seteuid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a76be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a76be.dir/build.make CMakeFiles/cmTC_a76be.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a76be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=seteuid   -o CMakeFiles/cmTC_a76be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a76be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76be.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=seteuid    -rdynamic CMakeFiles/cmTC_a76be.dir/CheckFunctionExists.c.o  -o cmTC_a76be 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setegid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3315f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3315f.dir/build.make CMakeFiles/cmTC_3315f.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3315f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setegid   -o CMakeFiles/cmTC_3315f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3315f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3315f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setegid    -rdynamic CMakeFiles/cmTC_3315f.dir/CheckFunctionExists.c.o  -o cmTC_3315f 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setgid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1fc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1fc2.dir/build.make CMakeFiles/cmTC_a1fc2.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1fc2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setgid   -o CMakeFiles/cmTC_a1fc2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1fc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1fc2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setgid    -rdynamic CMakeFiles/cmTC_a1fc2.dir/CheckFunctionExists.c.o  -o cmTC_a1fc2 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setpgrp exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc19b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc19b.dir/build.make CMakeFiles/cmTC_cc19b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc19b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setpgrp   -o CMakeFiles/cmTC_cc19b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc19b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc19b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setpgrp    -rdynamic CMakeFiles/cmTC_cc19b.dir/CheckFunctionExists.c.o  -o cmTC_cc19b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setsid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37d9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37d9d.dir/build.make CMakeFiles/cmTC_37d9d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37d9d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setsid   -o CMakeFiles/cmTC_37d9d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_37d9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d9d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setsid    -rdynamic CMakeFiles/cmTC_37d9d.dir/CheckFunctionExists.c.o  -o cmTC_37d9d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setuid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a4b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a4b1.dir/build.make CMakeFiles/cmTC_7a4b1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a4b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setuid   -o CMakeFiles/cmTC_7a4b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a4b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a4b1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setuid    -rdynamic CMakeFiles/cmTC_7a4b1.dir/CheckFunctionExists.c.o  -o cmTC_7a4b1 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setutxent exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34c77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34c77.dir/build.make CMakeFiles/cmTC_34c77.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34c77.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setutxent   -o CMakeFiles/cmTC_34c77.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34c77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34c77.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=setutxent    -rdynamic CMakeFiles/cmTC_34c77.dir/CheckFunctionExists.c.o  -o cmTC_34c77 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb989/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb989.dir/build.make CMakeFiles/cmTC_bb989.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb989.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_bb989.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb989.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_bb989.dir/CheckFunctionExists.c.o  -o cmTC_bb989 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a242/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a242.dir/build.make CMakeFiles/cmTC_7a242.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a242.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_7a242.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a242.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_7a242.dir/CheckFunctionExists.c.o  -o cmTC_7a242 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ab67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ab67.dir/build.make CMakeFiles/cmTC_3ab67.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ab67.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_3ab67.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_3ab67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ab67.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strchr    -rdynamic CMakeFiles/cmTC_3ab67.dir/CheckFunctionExists.c.o  -o cmTC_3ab67 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcspn exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8156/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8156.dir/build.make CMakeFiles/cmTC_e8156.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8156.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strcspn   -o CMakeFiles/cmTC_e8156.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcspn’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e8156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8156.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strcspn    -rdynamic CMakeFiles/cmTC_e8156.dir/CheckFunctionExists.c.o  -o cmTC_e8156 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26dfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26dfb.dir/build.make CMakeFiles/cmTC_26dfb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26dfb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_26dfb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_26dfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26dfb.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_26dfb.dir/CheckFunctionExists.c.o  -o cmTC_26dfb 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a559/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a559.dir/build.make CMakeFiles/cmTC_8a559.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a559.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTC_8a559.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a559.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strerror    -rdynamic CMakeFiles/cmTC_8a559.dir/CheckFunctionExists.c.o  -o cmTC_8a559 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c73b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c73b6.dir/build.make CMakeFiles/cmTC_c73b6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c73b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strftime   -o CMakeFiles/cmTC_c73b6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strftime’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c73b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c73b6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strftime    -rdynamic CMakeFiles/cmTC_c73b6.dir/CheckFunctionExists.c.o  -o cmTC_c73b6 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strpbrk exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8eeed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8eeed.dir/build.make CMakeFiles/cmTC_8eeed.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8eeed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strpbrk   -o CMakeFiles/cmTC_8eeed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strpbrk’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_8eeed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eeed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strpbrk    -rdynamic CMakeFiles/cmTC_8eeed.dir/CheckFunctionExists.c.o  -o cmTC_8eeed 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cf79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cf79.dir/build.make CMakeFiles/cmTC_4cf79.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cf79.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_4cf79.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4cf79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cf79.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strrchr    -rdynamic CMakeFiles/cmTC_4cf79.dir/CheckFunctionExists.c.o  -o cmTC_4cf79 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62942/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62942.dir/build.make CMakeFiles/cmTC_62942.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62942.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_62942.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_62942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62942.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=strstr    -rdynamic CMakeFiles/cmTC_62942.dir/CheckFunctionExists.c.o  -o cmTC_62942 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function uname exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34949/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34949.dir/build.make CMakeFiles/cmTC_34949.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34949.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=uname   -o CMakeFiles/cmTC_34949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34949.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=uname    -rdynamic CMakeFiles/cmTC_34949.dir/CheckFunctionExists.c.o  -o cmTC_34949 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d847b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d847b.dir/build.make CMakeFiles/cmTC_d847b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d847b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vfork   -o CMakeFiles/cmTC_d847b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d847b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d847b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vfork    -rdynamic CMakeFiles/cmTC_d847b.dir/CheckFunctionExists.c.o  -o cmTC_d847b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d093/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d093.dir/build.make CMakeFiles/cmTC_2d093.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d093.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vprintf   -o CMakeFiles/cmTC_2d093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vprintf’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2d093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d093.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=vprintf    -rdynamic CMakeFiles/cmTC_2d093.dir/CheckFunctionExists.c.o  -o cmTC_2d093 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4c59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4c59.dir/build.make CMakeFiles/cmTC_e4c59.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4c59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_e4c59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4c59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4c59.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=waitpid    -rdynamic CMakeFiles/cmTC_e4c59.dir/CheckFunctionExists.c.o  -o cmTC_e4c59 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_TLS succeeded with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17c9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17c9c.dir/build.make CMakeFiles/cmTC_17c9c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17c9c.dir/src.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DHAVE_TLS   -o CMakeFiles/cmTC_17c9c.dir/src.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/src.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/src.c:1:21: warning: ‘p’ defined but not used [-Wunused-variable]
+ static __thread int p = 0; int main() {}
+                     ^
+Linking C executable cmTC_17c9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17c9c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DHAVE_TLS    -rdynamic CMakeFiles/cmTC_17c9c.dir/src.c.o  -o cmTC_17c9c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static __thread int p = 0; int main() {}
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c647d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c647d.dir/build.make CMakeFiles/cmTC_c647d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c647d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_c647d.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c647d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c647d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_c647d.dir/CheckIncludeFiles.c.o  -o cmTC_c647d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files ctype.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c663/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c663.dir/build.make CMakeFiles/cmTC_0c663.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c663.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_0c663.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_0c663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c663.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_0c663.dir/CheckIncludeFiles.c.o  -o cmTC_0c663 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6034/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6034.dir/build.make CMakeFiles/cmTC_d6034.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6034.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_d6034.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d6034
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6034.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_d6034.dir/CheckIncludeFiles.c.o  -o cmTC_d6034 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a9f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a9f2.dir/build.make CMakeFiles/cmTC_2a9f2.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2a9f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a9f2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_2a9f2.dir/CheckIncludeFiles.c.o  -o cmTC_2a9f2 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_463de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_463de.dir/build.make CMakeFiles/cmTC_463de.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_463de.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_463de.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_463de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_463de.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_463de.dir/CheckIncludeFiles.c.o  -o cmTC_463de 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5393/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5393.dir/build.make CMakeFiles/cmTC_e5393.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5393.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_e5393.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e5393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5393.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_e5393.dir/CheckIncludeFiles.c.o  -o cmTC_e5393 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4953c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4953c.dir/build.make CMakeFiles/cmTC_4953c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4953c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_4953c.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4953c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4953c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_4953c.dir/CheckIncludeFiles.c.o  -o cmTC_4953c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/fb.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb191/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb191.dir/build.make CMakeFiles/cmTC_bb191.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb191.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_bb191.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_bb191
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb191.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_bb191.dir/CheckIncludeFiles.c.o  -o cmTC_bb191 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/input.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_badc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_badc3.dir/build.make CMakeFiles/cmTC_badc3.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_badc3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_badc3.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_badc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badc3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_badc3.dir/CheckIncludeFiles.c.o  -o cmTC_badc3 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/uinput.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58fed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58fed.dir/build.make CMakeFiles/cmTC_58fed.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58fed.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_58fed.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_58fed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fed.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_58fed.dir/CheckIncludeFiles.c.o  -o cmTC_58fed 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/videodev2.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0147/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0147.dir/build.make CMakeFiles/cmTC_a0147.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0147.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_a0147.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a0147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0147.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_a0147.dir/CheckIncludeFiles.c.o  -o cmTC_a0147 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a221/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a221.dir/build.make CMakeFiles/cmTC_0a221.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a221.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_0a221.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_0a221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a221.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_0a221.dir/CheckIncludeFiles.c.o  -o cmTC_0a221 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7369f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7369f.dir/build.make CMakeFiles/cmTC_7369f.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7369f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_7369f.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_7369f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7369f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_7369f.dir/CheckIncludeFiles.c.o  -o cmTC_7369f 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75f62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75f62.dir/build.make CMakeFiles/cmTC_75f62.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75f62.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_75f62.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_75f62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f62.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_75f62.dir/CheckIncludeFiles.c.o  -o cmTC_75f62 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab8fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab8fe.dir/build.make CMakeFiles/cmTC_ab8fe.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab8fe.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_ab8fe.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ab8fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab8fe.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_ab8fe.dir/CheckIncludeFiles.c.o  -o cmTC_ab8fe 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_925d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_925d4.dir/build.make CMakeFiles/cmTC_925d4.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_925d4.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_925d4.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_925d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_925d4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_925d4.dir/CheckIncludeFiles.c.o  -o cmTC_925d4 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd77d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd77d.dir/build.make CMakeFiles/cmTC_cd77d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd77d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_cd77d.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cd77d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd77d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_cd77d.dir/CheckIncludeFiles.c.o  -o cmTC_cd77d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e483c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e483c.dir/build.make CMakeFiles/cmTC_e483c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e483c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_e483c.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e483c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e483c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_e483c.dir/CheckIncludeFiles.c.o  -o cmTC_e483c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb3bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb3bc.dir/build.make CMakeFiles/cmTC_fb3bc.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb3bc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_fb3bc.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fb3bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb3bc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_fb3bc.dir/CheckIncludeFiles.c.o  -o cmTC_fb3bc 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98dff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98dff.dir/build.make CMakeFiles/cmTC_98dff.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98dff.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_98dff.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_98dff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98dff.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_98dff.dir/CheckIncludeFiles.c.o  -o cmTC_98dff 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7cd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7cd3.dir/build.make CMakeFiles/cmTC_c7cd3.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7cd3.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_c7cd3.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c7cd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7cd3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_c7cd3.dir/CheckIncludeFiles.c.o  -o cmTC_c7cd3 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d31a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d31a5.dir/build.make CMakeFiles/cmTC_d31a5.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d31a5.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_d31a5.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d31a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31a5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_d31a5.dir/CheckIncludeFiles.c.o  -o cmTC_d31a5 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36ddc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36ddc.dir/build.make CMakeFiles/cmTC_36ddc.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36ddc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_36ddc.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_36ddc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ddc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_36ddc.dir/CheckIncludeFiles.c.o  -o cmTC_36ddc 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ipc.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab29b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab29b.dir/build.make CMakeFiles/cmTC_ab29b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab29b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_ab29b.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ab29b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab29b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_ab29b.dir/CheckIncludeFiles.c.o  -o cmTC_ab29b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files syslog.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21b5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21b5c.dir/build.make CMakeFiles/cmTC_21b5c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21b5c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_21b5c.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_21b5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b5c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_21b5c.dir/CheckIncludeFiles.c.o  -o cmTC_21b5c 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/shm.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9726d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9726d.dir/build.make CMakeFiles/cmTC_9726d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9726d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_9726d.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9726d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9726d.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_9726d.dir/CheckIncludeFiles.c.o  -o cmTC_9726d 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be762/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be762.dir/build.make CMakeFiles/cmTC_be762.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be762.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_be762.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_be762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be762.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_be762.dir/CheckIncludeFiles.c.o  -o cmTC_be762 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a47a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a47a8.dir/build.make CMakeFiles/cmTC_a47a8.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a47a8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_a47a8.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a47a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a47a8.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_a47a8.dir/CheckIncludeFiles.c.o  -o cmTC_a47a8 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stropts.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_417f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_417f6.dir/build.make CMakeFiles/cmTC_417f6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_417f6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_417f6.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_417f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_417f6.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_417f6.dir/CheckIncludeFiles.c.o  -o cmTC_417f6 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/timeb.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bcdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0bcdc.dir/build.make CMakeFiles/cmTC_0bcdc.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bcdc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_0bcdc.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_0bcdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bcdc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_0bcdc.dir/CheckIncludeFiles.c.o  -o cmTC_0bcdc 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_874b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_874b0.dir/build.make CMakeFiles/cmTC_874b0.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_874b0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_874b0.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_874b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_874b0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_874b0.dir/CheckIncludeFiles.c.o  -o cmTC_874b0 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c52b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c52b.dir/build.make CMakeFiles/cmTC_9c52b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c52b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_9c52b.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9c52b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c52b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_9c52b.dir/CheckIncludeFiles.c.o  -o cmTC_9c52b 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files termios.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3f69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3f69.dir/build.make CMakeFiles/cmTC_e3f69.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3f69.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_e3f69.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e3f69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3f69.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_e3f69.dir/CheckIncludeFiles.c.o  -o cmTC_e3f69 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa812/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa812.dir/build.make CMakeFiles/cmTC_aa812.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa812.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_aa812.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_aa812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa812.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_aa812.dir/CheckIncludeFiles.c.o  -o cmTC_aa812 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc4fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc4fc.dir/build.make CMakeFiles/cmTC_dc4fc.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc4fc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_dc4fc.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dc4fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc4fc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_dc4fc.dir/CheckIncludeFiles.c.o  -o cmTC_dc4fc 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files utmpx.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eff22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eff22.dir/build.make CMakeFiles/cmTC_eff22.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eff22.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_eff22.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_eff22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff22.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_eff22.dir/CheckIncludeFiles.c.o  -o cmTC_eff22 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function DPMSForceLevel exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52f9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52f9c.dir/build.make CMakeFiles/cmTC_52f9c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52f9c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=DPMSForceLevel   -o CMakeFiles/cmTC_52f9c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52f9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52f9c.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=DPMSForceLevel    -rdynamic CMakeFiles/cmTC_52f9c.dir/CheckFunctionExists.c.o  -o cmTC_52f9c /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XTestGrabControl exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62ce9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62ce9.dir/build.make CMakeFiles/cmTC_62ce9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62ce9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XTestGrabControl   -o CMakeFiles/cmTC_62ce9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62ce9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ce9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XTestGrabControl    -rdynamic CMakeFiles/cmTC_62ce9.dir/CheckFunctionExists.c.o  -o cmTC_62ce9 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XRecordEnableContextAsync exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f185/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f185.dir/build.make CMakeFiles/cmTC_7f185.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f185.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XRecordEnableContextAsync   -o CMakeFiles/cmTC_7f185.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7f185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f185.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XRecordEnableContextAsync    -rdynamic CMakeFiles/cmTC_7f185.dir/CheckFunctionExists.c.o  -o cmTC_7f185 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/XKBlib.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3af90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3af90.dir/build.make CMakeFiles/cmTC_3af90.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3af90.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_3af90.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_3af90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3af90.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_3af90.dir/CheckIncludeFiles.c.o  -o cmTC_3af90 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XkbSelectEvents exists passed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce6a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce6a5.dir/build.make CMakeFiles/cmTC_ce6a5.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce6a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XkbSelectEvents   -o CMakeFiles/cmTC_ce6a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce6a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6a5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XkbSelectEvents    -rdynamic CMakeFiles/cmTC_ce6a5.dir/CheckFunctionExists.c.o  -o cmTC_ce6a5 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+
+

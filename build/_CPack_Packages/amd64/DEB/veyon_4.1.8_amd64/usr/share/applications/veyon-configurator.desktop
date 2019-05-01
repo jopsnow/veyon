@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/usr/bin/veyon-configurator
+Icon=veyon-configurator
+Terminal=false
+Name=Veyon Configurator
+Comment=Configuration tool for Veyon (Virtual Eye On Networks)
+Comment[de]=Einrichtungswerkzeug für Veyon (Virtual Eye On Networks)
+Categories=Qt;Education;Network;Settings;System;RemoteAccess;
+Keywords=classroom,control,computer,room,lab,monitoring,teacher,student,settings,configuration

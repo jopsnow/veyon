@@ -1,0 +1,992 @@
+The target system is: Windows - 1 - x86_64
+The host system is: Linux - 4.18.0-1014-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/x86_64-w64-mingw32-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/jopper/veyon/cmake/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/x86_64-w64-mingw32-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/jopper/veyon/cmake/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30ff9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30ff9.dir/build.make CMakeFiles/cmTC_30ff9.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30ff9.dir/testCCompiler.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_30ff9.dir/includes_C.rsp  -o CMakeFiles/cmTC_30ff9.dir/testCCompiler.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_30ff9.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ff9.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_30ff9.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_30ff9.dir/objects.a @CMakeFiles/cmTC_30ff9.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_30ff9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_30ff9.exe -Wl,--out-implib,libcmTC_30ff9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_30ff9.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25cc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25cc3.dir/build.make CMakeFiles/cmTC_25cc3.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25cc3.dir/CMakeCCompilerABI.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_25cc3.dir/includes_C.rsp  -o CMakeFiles/cmTC_25cc3.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_25cc3.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25cc3.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_25cc3.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_25cc3.dir/objects.a @CMakeFiles/cmTC_25cc3.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_25cc3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_25cc3.exe -Wl,--out-implib,libcmTC_25cc3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_25cc3.dir/linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/x86_64-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --with-plugin-ld --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes
+Thread model: win32
+gcc version 7.3-win32 20180312 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25cc3.exe' '-L/usr/x86_64-w64-mingw32/lib' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_25cc3.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/x86_64-w64-mingw32/lib -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib @/tmp/cc5ZloYC -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25cc3.exe' '-L/usr/x86_64-w64-mingw32/lib' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_25cc3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_25cc3.dir/build.make CMakeFiles/cmTC_25cc3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_25cc3.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_25cc3.dir/includes_C.rsp  -o CMakeFiles/cmTC_25cc3.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_25cc3.exe]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25cc3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake -E remove -f CMakeFiles/cmTC_25cc3.dir/objects.a]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_25cc3.dir/objects.a @CMakeFiles/cmTC_25cc3.dir/objects1.rsp]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-gcc     -v -Wl,--whole-archive CMakeFiles/cmTC_25cc3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_25cc3.exe -Wl,--out-implib,libcmTC_25cc3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_25cc3.dir/linklibs.rsp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/x86_64-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --with-plugin-ld --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 7.3-win32 20180312 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25cc3.exe' '-L/usr/x86_64-w64-mingw32/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_25cc3.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/x86_64-w64-mingw32/lib -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib @/tmp/cc5ZloYC -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_25cc3.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o] ==> ignore
+    arg [-L/usr/x86_64-w64-mingw32/lib] ==> dir [/usr/x86_64-w64-mingw32/lib]
+    arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+    arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib]
+    arg [@/tmp/cc5ZloYC] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [/usr/x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+  collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_704b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_704b6.dir/build.make CMakeFiles/cmTC_704b6.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_704b6.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_704b6.dir/includes_C.rsp -std=c11 -o CMakeFiles/cmTC_704b6.dir/feature_tests.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_704b6.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_704b6.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_704b6.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_704b6.dir/objects.a @CMakeFiles/cmTC_704b6.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_704b6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_704b6.exe -Wl,--out-implib,libcmTC_704b6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_704b6.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73cce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73cce.dir/build.make CMakeFiles/cmTC_73cce.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73cce.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_73cce.dir/includes_C.rsp -std=c99 -o CMakeFiles/cmTC_73cce.dir/feature_tests.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_73cce.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73cce.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_73cce.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_73cce.dir/objects.a @CMakeFiles/cmTC_73cce.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_73cce.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73cce.exe -Wl,--out-implib,libcmTC_73cce.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_73cce.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6e5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6e5e.dir/build.make CMakeFiles/cmTC_b6e5e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6e5e.dir/feature_tests.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_b6e5e.dir/includes_C.rsp -std=c90 -o CMakeFiles/cmTC_b6e5e.dir/feature_tests.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b6e5e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e5e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_b6e5e.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_b6e5e.dir/objects.a @CMakeFiles/cmTC_b6e5e.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_b6e5e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b6e5e.exe -Wl,--out-implib,libcmTC_b6e5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b6e5e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d858/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d858.dir/build.make CMakeFiles/cmTC_6d858.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d858.dir/testCXXCompiler.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_6d858.dir/includes_CXX.rsp  -o CMakeFiles/cmTC_6d858.dir/testCXXCompiler.cxx.obj -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6d858.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d858.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_6d858.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_6d858.dir/objects.a @CMakeFiles/cmTC_6d858.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_6d858.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6d858.exe -Wl,--out-implib,libcmTC_6d858.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6d858.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a76eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a76eb.dir/build.make CMakeFiles/cmTC_a76eb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a76eb.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_a76eb.dir/includes_CXX.rsp  -o CMakeFiles/cmTC_a76eb.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a76eb.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76eb.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_a76eb.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_a76eb.dir/objects.a @CMakeFiles/cmTC_a76eb.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_a76eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a76eb.exe -Wl,--out-implib,libcmTC_a76eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a76eb.dir/linklibs.rsp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/x86_64-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --with-plugin-ld --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes
+Thread model: win32
+gcc version 7.3-win32 20180312 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a76eb.exe' '-L/usr/x86_64-w64-mingw32/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_a76eb.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/x86_64-w64-mingw32/lib -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib @/tmp/ccQDxVU5 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a76eb.exe' '-L/usr/x86_64-w64-mingw32/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a76eb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a76eb.dir/build.make CMakeFiles/cmTC_a76eb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a76eb.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_a76eb.dir/includes_CXX.rsp  -o CMakeFiles/cmTC_a76eb.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a76eb.exe]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76eb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake -E remove -f CMakeFiles/cmTC_a76eb.dir/objects.a]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_a76eb.dir/objects.a @CMakeFiles/cmTC_a76eb.dir/objects1.rsp]
+  ignore line: [/usr/bin/x86_64-w64-mingw32-g++     -v -Wl,--whole-archive CMakeFiles/cmTC_a76eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a76eb.exe -Wl,--out-implib,libcmTC_a76eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a76eb.dir/linklibs.rsp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/lto-wrapper]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers=/usr/x86_64-w64-mingw32/include --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --with-plugin-ld --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 7.3-win32 20180312 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/:/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a76eb.exe' '-L/usr/x86_64-w64-mingw32/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2 -m i386pep -Bdynamic -o cmTC_a76eb.exe /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o -L/usr/x86_64-w64-mingw32/lib -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32 -L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib @/tmp/ccQDxVU5 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o]
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/collect2] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a76eb.exe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtbegin.o] ==> ignore
+    arg [-L/usr/x86_64-w64-mingw32/lib] ==> dir [/usr/x86_64-w64-mingw32/lib]
+    arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+    arg [-L/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib]
+    arg [@/tmp/ccQDxVU5] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [/usr/x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32] ==> [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+  collapse library dir [/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32/../../../../x86_64-w64-mingw32/lib] ==> [/usr/x86_64-w64-mingw32/lib]
+  implicit libs: [mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [/usr/x86_64-w64-mingw32/lib;/usr/lib/gcc/x86_64-w64-mingw32/7.3-win32]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0496e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0496e.dir/build.make CMakeFiles/cmTC_0496e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0496e.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_0496e.dir/includes_CXX.rsp -std=c++1z -o CMakeFiles/cmTC_0496e.dir/feature_tests.cxx.obj -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0496e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0496e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_0496e.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_0496e.dir/objects.a @CMakeFiles/cmTC_0496e.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_0496e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0496e.exe -Wl,--out-implib,libcmTC_0496e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0496e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdc20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdc20.dir/build.make CMakeFiles/cmTC_bdc20.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdc20.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_bdc20.dir/includes_CXX.rsp -std=c++14 -o CMakeFiles/cmTC_bdc20.dir/feature_tests.cxx.obj -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bdc20.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdc20.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_bdc20.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_bdc20.dir/objects.a @CMakeFiles/cmTC_bdc20.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_bdc20.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bdc20.exe -Wl,--out-implib,libcmTC_bdc20.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bdc20.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80046/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80046.dir/build.make CMakeFiles/cmTC_80046.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80046.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_80046.dir/includes_CXX.rsp -std=c++11 -o CMakeFiles/cmTC_80046.dir/feature_tests.cxx.obj -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_80046.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80046.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_80046.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_80046.dir/objects.a @CMakeFiles/cmTC_80046.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_80046.dir/objects.a -Wl,--no-whole-archive  -o cmTC_80046.exe -Wl,--out-implib,libcmTC_80046.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_80046.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c031e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c031e.dir/build.make CMakeFiles/cmTC_c031e.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c031e.dir/feature_tests.cxx.obj
+/usr/bin/x86_64-w64-mingw32-g++   @CMakeFiles/cmTC_c031e.dir/includes_CXX.rsp -std=c++98 -o CMakeFiles/cmTC_c031e.dir/feature_tests.cxx.obj -c /home/jopper/veyon/cmake/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c031e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c031e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_c031e.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_c031e.dir/objects.a @CMakeFiles/cmTC_c031e.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++      -Wl,--whole-archive CMakeFiles/cmTC_c031e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c031e.exe -Wl,--out-implib,libcmTC_c031e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c031e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files limits.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73814/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73814.dir/build.make CMakeFiles/cmTC_73814.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73814.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_73814.dir/includes_C.rsp  -o CMakeFiles/cmTC_73814.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_73814.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73814.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_73814.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_73814.dir/objects.a @CMakeFiles/cmTC_73814.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_73814.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73814.exe -Wl,--out-implib,libcmTC_73814.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_73814.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee91d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee91d.dir/build.make CMakeFiles/cmTC_ee91d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee91d.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_ee91d.dir/includes_C.rsp  -o CMakeFiles/cmTC_ee91d.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ee91d.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee91d.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ee91d.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_ee91d.dir/objects.a @CMakeFiles/cmTC_ee91d.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_ee91d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ee91d.exe -Wl,--out-implib,libcmTC_ee91d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ee91d.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e84c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e84c.dir/build.make CMakeFiles/cmTC_9e84c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e84c.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_9e84c.dir/includes_C.rsp  -o CMakeFiles/cmTC_9e84c.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9e84c.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e84c.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_9e84c.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_9e84c.dir/objects.a @CMakeFiles/cmTC_9e84c.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_9e84c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9e84c.exe -Wl,--out-implib,libcmTC_9e84c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9e84c.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files ws2tcpip.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ede7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ede7b.dir/build.make CMakeFiles/cmTC_ede7b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ede7b.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_ede7b.dir/includes_C.rsp  -o CMakeFiles/cmTC_ede7b.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ede7b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ede7b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ede7b.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_ede7b.dir/objects.a @CMakeFiles/cmTC_ede7b.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_ede7b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ede7b.exe -Wl,--out-implib,libcmTC_ede7b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ede7b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_425a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_425a1.dir/build.make CMakeFiles/cmTC_425a1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_425a1.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_425a1.dir/includes_C.rsp  -o CMakeFiles/cmTC_425a1.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_425a1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_425a1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_425a1.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_425a1.dir/objects.a @CMakeFiles/cmTC_425a1.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_425a1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_425a1.exe -Wl,--out-implib,libcmTC_425a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_425a1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_560f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_560f8.dir/build.make CMakeFiles/cmTC_560f8.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_560f8.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_560f8.dir/includes_C.rsp  -o CMakeFiles/cmTC_560f8.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_560f8.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_560f8.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_560f8.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_560f8.dir/objects.a @CMakeFiles/cmTC_560f8.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_560f8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_560f8.exe -Wl,--out-implib,libcmTC_560f8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_560f8.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/timeb.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac89c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac89c.dir/build.make CMakeFiles/cmTC_ac89c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac89c.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_ac89c.dir/includes_C.rsp  -o CMakeFiles/cmTC_ac89c.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ac89c.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac89c.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ac89c.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_ac89c.dir/objects.a @CMakeFiles/cmTC_ac89c.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_ac89c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac89c.exe -Wl,--out-implib,libcmTC_ac89c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ac89c.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_132b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_132b1.dir/build.make CMakeFiles/cmTC_132b1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_132b1.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_132b1.dir/includes_C.rsp  -o CMakeFiles/cmTC_132b1.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_132b1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_132b1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_132b1.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_132b1.dir/objects.a @CMakeFiles/cmTC_132b1.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_132b1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_132b1.exe -Wl,--out-implib,libcmTC_132b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_132b1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de323/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de323.dir/build.make CMakeFiles/cmTC_de323.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de323.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_de323.dir/includes_C.rsp  -o CMakeFiles/cmTC_de323.dir/CheckIncludeFile.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_de323.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de323.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_de323.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_de323.dir/objects.a @CMakeFiles/cmTC_de323.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_de323.dir/objects.a -Wl,--no-whole-archive  -o cmTC_de323.exe -Wl,--out-implib,libcmTC_de323.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_de323.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7efae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7efae.dir/build.make CMakeFiles/cmTC_7efae.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7efae.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_7efae.dir/includes_C.rsp  -o CMakeFiles/cmTC_7efae.dir/CheckIncludeFile.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7efae.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7efae.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_7efae.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_7efae.dir/objects.a @CMakeFiles/cmTC_7efae.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_7efae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7efae.exe -Wl,--out-implib,libcmTC_7efae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7efae.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_902d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_902d0.dir/build.make CMakeFiles/cmTC_902d0.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_902d0.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_902d0.dir/includes_C.rsp  -o CMakeFiles/cmTC_902d0.dir/CheckIncludeFile.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_902d0.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902d0.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_902d0.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_902d0.dir/objects.a @CMakeFiles/cmTC_902d0.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_902d0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_902d0.exe -Wl,--out-implib,libcmTC_902d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_902d0.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6906c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6906c.dir/build.make CMakeFiles/cmTC_6906c.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6906c.dir/LIBVNCSERVER_PID_T.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_6906c.dir/includes_C.rsp  -o CMakeFiles/cmTC_6906c.dir/LIBVNCSERVER_PID_T.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CheckTypeSize/LIBVNCSERVER_PID_T.c
+Linking C executable cmTC_6906c.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6906c.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_6906c.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_6906c.dir/objects.a @CMakeFiles/cmTC_6906c.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_6906c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6906c.exe -Wl,--out-implib,libcmTC_6906c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6906c.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f350/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f350.dir/build.make CMakeFiles/cmTC_2f350.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f350.dir/LIBVNCSERVER_SIZE_T.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_2f350.dir/includes_C.rsp  -o CMakeFiles/cmTC_2f350.dir/LIBVNCSERVER_SIZE_T.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CheckTypeSize/LIBVNCSERVER_SIZE_T.c
+Linking C executable cmTC_2f350.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f350.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_2f350.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_2f350.dir/objects.a @CMakeFiles/cmTC_2f350.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc      -Wl,--whole-archive CMakeFiles/cmTC_2f350.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2f350.exe -Wl,--out-implib,libcmTC_2f350.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_2f350.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_start_tls_s exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a18fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a18fe.dir/build.make CMakeFiles/cmTC_a18fe.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a18fe.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_a18fe.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_start_tls_s   -o CMakeFiles/cmTC_a18fe.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a18fe.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a18fe.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_a18fe.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_a18fe.dir/objects.a @CMakeFiles/cmTC_a18fe.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_start_tls_s    -Wl,--whole-archive CMakeFiles/cmTC_a18fe.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a18fe.exe -Wl,--out-implib,libcmTC_a18fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a18fe.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_initialize exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec47b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec47b.dir/build.make CMakeFiles/cmTC_ec47b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec47b.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_ec47b.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_initialize   -o CMakeFiles/cmTC_ec47b.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec47b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec47b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ec47b.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_ec47b.dir/objects.a @CMakeFiles/cmTC_ec47b.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_initialize    -Wl,--whole-archive CMakeFiles/cmTC_ec47b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ec47b.exe -Wl,--out-implib,libcmTC_ec47b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ec47b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ber_memfree exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b537/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b537.dir/build.make CMakeFiles/cmTC_9b537.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b537.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_9b537.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ber_memfree   -o CMakeFiles/cmTC_9b537.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9b537.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b537.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_9b537.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_9b537.dir/objects.a @CMakeFiles/cmTC_9b537.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ber_memfree    -Wl,--whole-archive CMakeFiles/cmTC_9b537.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9b537.exe -Wl,--out-implib,libcmTC_9b537.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9b537.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_unbind_ext exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee969/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee969.dir/build.make CMakeFiles/cmTC_ee969.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee969.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_ee969.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_unbind_ext   -o CMakeFiles/cmTC_ee969.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee969.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee969.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ee969.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_ee969.dir/objects.a @CMakeFiles/cmTC_ee969.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_unbind_ext    -Wl,--whole-archive CMakeFiles/cmTC_ee969.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ee969.exe -Wl,--out-implib,libcmTC_ee969.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ee969.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_extended_operation exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43571/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43571.dir/build.make CMakeFiles/cmTC_43571.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43571.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_43571.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation   -o CMakeFiles/cmTC_43571.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43571.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43571.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_43571.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_43571.dir/objects.a @CMakeFiles/cmTC_43571.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation    -Wl,--whole-archive CMakeFiles/cmTC_43571.dir/objects.a -Wl,--no-whole-archive  -o cmTC_43571.exe -Wl,--out-implib,libcmTC_43571.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_43571.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ldap_extended_operation_s exists passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d24a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d24a4.dir/build.make CMakeFiles/cmTC_d24a4.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d24a4.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_d24a4.dir/includes_C.rsp -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation_s   -o CMakeFiles/cmTC_d24a4.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d24a4.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d24a4.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_d24a4.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_d24a4.dir/objects.a @CMakeFiles/cmTC_d24a4.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=ldap_extended_operation_s    -Wl,--whole-archive CMakeFiles/cmTC_d24a4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d24a4.exe -Wl,--out-implib,libcmTC_d24a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_d24a4.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+
+Determining if the ldap_extended_operation exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2474/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2474.dir/build.make CMakeFiles/cmTC_f2474.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2474.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_f2474.dir/includes_C.rsp -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_f2474.dir/CheckSymbolExists.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2474.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2474.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_f2474.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_f2474.dir/objects.a @CMakeFiles/cmTC_f2474.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong      -Wl,--whole-archive CMakeFiles/cmTC_f2474.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f2474.exe -Wl,--out-implib,libcmTC_f2474.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f2474.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+File /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ldap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ldap_extended_operation
+  return ((int*)(&ldap_extended_operation))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ldap_extended_operation_s exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_874eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_874eb.dir/build.make CMakeFiles/cmTC_874eb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_874eb.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_874eb.dir/includes_C.rsp -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_874eb.dir/CheckSymbolExists.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_874eb.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_874eb.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_874eb.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_874eb.dir/objects.a @CMakeFiles/cmTC_874eb.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong      -Wl,--whole-archive CMakeFiles/cmTC_874eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_874eb.exe -Wl,--out-implib,libcmTC_874eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_874eb.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+File /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ldap.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ldap_extended_operation_s
+  return ((int*)(&ldap_extended_operation_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files ldap.h exist passed with the following output:
+Change Dir: /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_524ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_524ab.dir/build.make CMakeFiles/cmTC_524ab.dir/build
+make[1]: Entering directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_524ab.dir/CheckIncludeFiles.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc  @CMakeFiles/cmTC_524ab.dir/includes_C.rsp -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_524ab.dir/CheckIncludeFiles.c.obj   -c /home/jopper/veyon/cmake/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_524ab.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_524ab.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_524ab.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_524ab.dir/objects.a @CMakeFiles/cmTC_524ab.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -fstack-protector-strong      -Wl,--whole-archive CMakeFiles/cmTC_524ab.dir/objects.a -Wl,--no-whole-archive  -o cmTC_524ab.exe -Wl,--out-implib,libcmTC_524ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_524ab.dir/linklibs.rsp
+make[1]: Leaving directory '/home/jopper/veyon/cmake/CMakeFiles/CMakeTmp'
+
+

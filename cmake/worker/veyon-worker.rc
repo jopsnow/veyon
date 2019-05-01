@@ -1,0 +1,25 @@
+#include <windows.h>
+
+VS_VERSION_INFO	VERSIONINFO
+  FILEVERSION	4,1,8,2
+  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+  FILEOS	VOS_NT_WINDOWS32
+  FILETYPE	VFT_APP
+  FILESUBTYPE	VFT2_UNKNOWN
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    //language ID = U.S. English, charset = Windows, Multilingual
+    BEGIN
+      VALUE "Comments",		"Virtual Eye On Networks (http://veyon.io)\0"
+      VALUE "CompanyName",	"Veyon Solutions\0"
+      VALUE "FileDescription",	"Veyon Worker\0"
+      VALUE "FileVersion",	"4.1.8-2-g50430a90\0"
+      VALUE "LegalCopyright",	"Copyright (c) 2017-2019 Tobias Junghans\0"
+      VALUE "OriginalFilename",	"veyon-worker.exe\0"
+      VALUE "ProductName",	"Veyon\0"
+      VALUE "FileVersion",	"4.1.8-2-g50430a90\0"
+    END
+  END
+END

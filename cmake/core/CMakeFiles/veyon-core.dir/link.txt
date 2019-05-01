@@ -1,0 +1,3 @@
+/usr/bin/cmake -E remove -f CMakeFiles/veyon-core.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/veyon-core.dir/objects.a @CMakeFiles/veyon-core.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++   -Wall -fno-exceptions -std=c++11 -fstack-protector-strong  -O2 -g -DNDEBUG  -shared -o veyon-core.dll -Wl,--out-implib,libveyon-core.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/veyon-core.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/veyon-core.dir/linklibs.rsp

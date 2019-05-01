@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "cotire/veyon-server_CXX_prefix.hxx.gch"
+  "src/moc_ComputerControlClient.cpp"
+  "src/moc_ComputerControlServer.cpp"
+  "src/moc_ServerAccessControlManager.cpp"
+  "src/moc_ServerAuthenticationManager.cpp"
+  "src/moc_VeyonServerProtocol.cpp"
+  "src/moc_VncProxyConnection.cpp"
+  "src/moc_VncProxyConnectionFactory.cpp"
+  "src/moc_VncProxyServer.cpp"
+  "src/moc_VncServer.cpp"
+  "winrc.obj"
+  "cotire/veyon-server_CXX_prefix.hxx"
+  "cotire/veyon-server_CXX_prefix.cxx"
+  "CMakeFiles/veyon-server.dir/src/ComputerControlClient.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/ComputerControlServer.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/ServerAccessControlManager.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/ServerAuthenticationManager.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/VeyonServerProtocol.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/VncProxyConnection.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/VncProxyServer.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/VncServer.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/main.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_ComputerControlClient.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_ComputerControlServer.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_ServerAccessControlManager.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_ServerAuthenticationManager.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_VeyonServerProtocol.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_VncProxyConnection.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_VncProxyConnectionFactory.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_VncProxyServer.cpp.obj"
+  "CMakeFiles/veyon-server.dir/src/moc_VncServer.cpp.obj"
+  "veyon-server.pdb"
+  "veyon-server.exe"
+  "libveyon-server.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/veyon-server.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

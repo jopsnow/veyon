@@ -1,0 +1,24 @@
+Package: veyon
+Version: 4.1.8
+Section: Education
+Priority: optional
+Architecture: amd64
+Depends: libqca-qt5-2-plugins, libc6 (>= 2.15), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.7), liblzo2-2, libpam0g (>= 0.99.7.1), libpng16-16 (>= 1.6.2-1), libprocps6, libqca-qt5-2 (>= 2.1.0+git20141127.0049+15.04), libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.5), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2, libxtst6, zlib1g (>= 1:1.1.4)
+Installed-Size: 7071
+Maintainer: Tobias Junghans <tobydox@veyon.io>
+Description: Virtual Eye On Networks - OpenSource classroom management
+  Veyon is an Open Source computer monitoring and classroom management software. 
+  It enables teachers to view and control computer labs and interact with students. 
+  Veyon is available in different languages and provides lots of useful features:
+  .
+  * see what's going on in computer labs in overview mode and take screenshots
+  * remote control computers to support and help users
+  * broadcast teacher's screen to students in realtime by using demo mode (either in fullscreen or in a window)
+  * lock workstations for attracting attention to teacher
+  * send text messages to students
+  * powering on/off and rebooting computers remote
+  * remote logoff and remote execution of arbitrary commands/scripts
+  * home schooling - Veyon's network-technology is not restricted to a subnet and therefore students at home
+  can join lessons via VPN connections just by installing the Veyon service
+
+

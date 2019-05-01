@@ -1,0 +1,16 @@
+-I/home/jopper/veyon/core/include
+-I/home/jopper/veyon/build/core/include
+-I/home/jopper/veyon/3rdparty/libvncserver
+-I/usr/include
+-I/usr/include
+-I/usr/include
+-I/usr/include
+-I/usr/include/QtCrypto
+-I/usr/include
+-I/usr/include
+-DQT_DEPRECATED_WARNINGS
+-DQT_DISABLE_DEPRECATED_BEFORE=0x050600
+-D_FORTIFY_SOURCE=2
+-o
+/home/jopper/veyon/build/core/include/moc_VeyonServerInterface.cpp
+/home/jopper/veyon/core/include/VeyonServerInterface.h

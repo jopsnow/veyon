@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "moc_DemoFeaturePlugin.cpp"
+  "moc_DemoConfiguration.cpp"
+  "moc_DemoConfigurationPage.cpp"
+  "moc_DemoServer.cpp"
+  "moc_DemoServerConnection.cpp"
+  "moc_DemoServerProtocol.cpp"
+  "moc_DemoClient.cpp /home/jopper/veyon/build/plugins/demo/qrc_demo.cpp"
+  "ui_DemoConfigurationPage.h"
+  "cotire/demo_CXX_prefix.hxx.gch"
+  "moc_DemoFeaturePlugin.cpp"
+  "moc_DemoConfiguration.cpp"
+  "moc_DemoConfigurationPage.cpp"
+  "moc_DemoServer.cpp"
+  "moc_DemoServerConnection.cpp"
+  "moc_DemoServerProtocol.cpp"
+  "moc_DemoClient.cpp"
+  "qrc_demo.cpp"
+  "cotire/demo_CXX_prefix.hxx"
+  "cotire/demo_CXX_prefix.cxx"
+  "CMakeFiles/demo.dir/DemoFeaturePlugin.cpp.o"
+  "CMakeFiles/demo.dir/DemoConfiguration.cpp.o"
+  "CMakeFiles/demo.dir/DemoConfigurationPage.cpp.o"
+  "CMakeFiles/demo.dir/DemoServer.cpp.o"
+  "CMakeFiles/demo.dir/DemoServerConnection.cpp.o"
+  "CMakeFiles/demo.dir/DemoServerProtocol.cpp.o"
+  "CMakeFiles/demo.dir/DemoClient.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoFeaturePlugin.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoConfiguration.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoConfigurationPage.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoServer.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoServerConnection.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoServerProtocol.cpp.o"
+  "CMakeFiles/demo.dir/moc_DemoClient.cpp.o"
+  "CMakeFiles/demo.dir/qrc_demo.cpp.o"
+  "demo.pdb"
+  "demo.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/demo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

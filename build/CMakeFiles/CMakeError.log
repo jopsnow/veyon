@@ -1,0 +1,347 @@
+Determining if files ws2tcpip.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87797/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87797.dir/build.make CMakeFiles/cmTC_87797.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87797.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_87797.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: ws2tcpip.h: No such file or directory
+ #include <ws2tcpip.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_87797.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87797.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_87797.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87797/fast' failed
+make: *** [cmTC_87797/fast] Error 2
+
+Source:
+/* */
+#include <ws2tcpip.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5908d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5908d.dir/build.make CMakeFiles/cmTC_5908d.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5908d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5908d.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: sys/endian.h: No such file or directory
+ #include <sys/endian.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5908d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5908d.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5908d.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5908d/fast' failed
+make: *** [cmTC_5908d/fast] Error 2
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aec07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aec07.dir/build.make CMakeFiles/cmTC_aec07.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aec07.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_aec07.dir/CheckSymbolExists.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aec07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec07.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong      -rdynamic CMakeFiles/cmTC_aec07.dir/CheckSymbolExists.c.o  -o cmTC_aec07 
+CMakeFiles/cmTC_aec07.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aec07.dir/build.make:97: recipe for target 'cmTC_aec07' failed
+make[1]: *** [cmTC_aec07] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aec07/fast' failed
+make: *** [cmTC_aec07/fast] Error 2
+
+File /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e351a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e351a.dir/build.make CMakeFiles/cmTC_e351a.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e351a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e351a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e351a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e351a.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e351a.dir/CheckFunctionExists.c.o  -o cmTC_e351a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e351a.dir/build.make:97: recipe for target 'cmTC_e351a' failed
+make[1]: *** [cmTC_e351a] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e351a/fast' failed
+make: *** [cmTC_e351a/fast] Error 2
+
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8d26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8d26.dir/build.make CMakeFiles/cmTC_b8d26.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8d26.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_b8d26.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b8d26.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b8d26.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b8d26.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8d26/fast' failed
+make: *** [cmTC_b8d26/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(void){return 0;}
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae716/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae716.dir/build.make CMakeFiles/cmTC_ae716.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae716.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_ae716.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ae716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae716.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=floor    -rdynamic CMakeFiles/cmTC_ae716.dir/CheckFunctionExists.c.o  -o cmTC_ae716 
+CMakeFiles/cmTC_ae716.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ae716.dir/build.make:97: recipe for target 'cmTC_ae716' failed
+make[1]: *** [cmTC_ae716] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae716/fast' failed
+make: *** [cmTC_ae716/fast] Error 2
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21785/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21785.dir/build.make CMakeFiles/cmTC_21785.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21785.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_21785.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_21785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21785.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=pow    -rdynamic CMakeFiles/cmTC_21785.dir/CheckFunctionExists.c.o  -o cmTC_21785 
+CMakeFiles/cmTC_21785.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_21785.dir/build.make:97: recipe for target 'cmTC_21785' failed
+make[1]: *** [cmTC_21785] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21785/fast' failed
+make: *** [cmTC_21785/fast] Error 2
+
+
+Determining if files linux/videodev.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d74d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d74d1.dir/build.make CMakeFiles/cmTC_d74d1.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d74d1.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_d74d1.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d74d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d74d1.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d74d1.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d74d1/fast' failed
+make: *** [cmTC_d74d1/fast] Error 2
+
+Source:
+/* */
+#include <linux/videodev.h>
+
+
+int main(void){return 0;}
+
+Determining if files process.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f347/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f347.dir/build.make CMakeFiles/cmTC_4f347.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f347.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_4f347.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: process.h: No such file or directory
+ #include <process.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4f347.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4f347.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4f347.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4f347/fast' failed
+make: *** [cmTC_4f347/fast] Error 2
+
+Source:
+/* */
+#include <process.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/endian.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af0cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af0cb.dir/build.make CMakeFiles/cmTC_af0cb.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af0cb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_af0cb.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: sys/endian.h: No such file or directory
+ #include <sys/endian.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_af0cb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_af0cb.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_af0cb.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_af0cb/fast' failed
+make: *** [cmTC_af0cb/fast] Error 2
+
+Source:
+/* */
+#include <sys/endian.h>
+
+
+int main(void){return 0;}
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5493b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5493b.dir/build.make CMakeFiles/cmTC_5493b.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5493b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_5493b.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: vfork.h: No such file or directory
+ #include <vfork.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5493b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5493b.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5493b.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5493b/fast' failed
+make: *** [cmTC_5493b/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(void){return 0;}
+
+Determining if the function XReadScreen exists failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bde0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bde0.dir/build.make CMakeFiles/cmTC_7bde0.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bde0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XReadScreen   -o CMakeFiles/cmTC_7bde0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7bde0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bde0.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=XReadScreen    -rdynamic CMakeFiles/cmTC_7bde0.dir/CheckFunctionExists.c.o  -o cmTC_7bde0 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+CMakeFiles/cmTC_7bde0.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `XReadScreen'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7bde0.dir/build.make:102: recipe for target 'cmTC_7bde0' failed
+make[1]: *** [cmTC_7bde0] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7bde0/fast' failed
+make: *** [cmTC_7bde0/fast] Error 2
+
+
+Determining if the function FBPMForceLevel exists failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4620/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4620.dir/build.make CMakeFiles/cmTC_e4620.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4620.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=FBPMForceLevel   -o CMakeFiles/cmTC_e4620.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4620
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4620.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -fstack-protector-strong  -DCHECK_FUNCTION_EXISTS=FBPMForceLevel    -rdynamic CMakeFiles/cmTC_e4620.dir/CheckFunctionExists.c.o  -o cmTC_e4620 /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so /usr/lib/x86_64-linux-gnu/libXtst.so 
+CMakeFiles/cmTC_e4620.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `FBPMForceLevel'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e4620.dir/build.make:102: recipe for target 'cmTC_e4620' failed
+make[1]: *** [cmTC_e4620] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4620/fast' failed
+make: *** [cmTC_e4620/fast] Error 2
+
+
+Determining if files X11/extensions/readdisplay.h exist failed with the following output:
+Change Dir: /home/jopper/veyon/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a606f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a606f.dir/build.make CMakeFiles/cmTC_a606f.dir/build
+make[1]: Entering directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a606f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -fstack-protector-strong     -o CMakeFiles/cmTC_a606f.dir/CheckIncludeFiles.c.o   -c /home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jopper/veyon/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: X11/extensions/readdisplay.h: No such file or directory
+ #include <X11/extensions/readdisplay.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_a606f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a606f.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a606f.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jopper/veyon/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a606f/fast' failed
+make: *** [cmTC_a606f/fast] Error 2
+
+Source:
+/* */
+#include <X11/extensions/readdisplay.h>
+
+
+int main(void){return 0;}
+

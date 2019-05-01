@@ -1,0 +1,3 @@
+/usr/bin/cmake -E remove -f CMakeFiles/windows-platform.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/windows-platform.dir/objects.a @CMakeFiles/windows-platform.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++   -Wall -fno-exceptions -std=c++11 -fstack-protector-strong  -O2 -g -DNDEBUG -Wl,-no-undefined -shared -o windows-platform.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/windows-platform.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/windows-platform.dir/linklibs.rsp

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -fno-exceptions -std=c++11 -fstack-protector-strong  -O2 -g -DNDEBUG  -rdynamic CMakeFiles/veyon-auth-helper.dir/VeyonAuthHelper.cpp.o  -o veyon-auth-helper  -L/home/jopper/veyon/build/core /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5 -lpam 

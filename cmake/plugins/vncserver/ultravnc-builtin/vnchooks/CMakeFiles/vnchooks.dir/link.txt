@@ -1,0 +1,3 @@
+/usr/bin/cmake -E remove -f CMakeFiles/vnchooks.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar cr CMakeFiles/vnchooks.dir/objects.a @CMakeFiles/vnchooks.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++   -Wall -fno-exceptions -std=c++11 -fstack-protector-strong  -O2 -g -DNDEBUG -Wl,-export-all-symbols -shared -o vnchooks.dll -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/vnchooks.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/vnchooks.dir/linklibs.rsp
